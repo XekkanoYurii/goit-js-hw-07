@@ -12,7 +12,6 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
 /* Task - 1 */
 #categories {
   display: inline-flex;
@@ -28,7 +27,6 @@ body {
   margin: 0;
   border: 0;
 }
-
 #categories .item {
   display: flex;
   padding: 16px;
@@ -38,7 +36,6 @@ body {
   border-radius: 8px;
   background: #f6f6fe;
 }
-
 #categories .item h2 {
   color: #2e2f42;
   font-family: Montserrat;
@@ -49,7 +46,6 @@ body {
   letter-spacing: 0.04em;
   margin: 0;
 }
-
 #categories .item ul {
   display: flex;
   flex-direction: column;
@@ -57,7 +53,6 @@ body {
   gap: 8px;
   padding: 0;
 }
-
 #categories .item ul li {
   list-style: none;
   width: 360px;
@@ -66,7 +61,6 @@ body {
   flex-shrink: 0;
   border: 1px solid #808080;
   color: #2e2f42;
-
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
@@ -77,7 +71,6 @@ body {
   display: flex;
   align-items: center;
 }
-
 /* Task - 2 */
 .gallery li img {
   width: 360px;
@@ -85,14 +78,12 @@ body {
   flex-shrink: 0;
   object-fit: cover;
 }
-
 .gallery li {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 48px;
 }
-
 .gallery {
   display: flex;
   width: 1440px;
@@ -105,9 +96,6 @@ body {
   margin: 0;
   border: 0;
 }
-
-/* ////////////////////////////////////////////////////////////////////////////////////// */
-
 /* Task - 3 */
 #name-input {
   display: inline-flex;
@@ -121,7 +109,6 @@ body {
   height: 40px;
   margin: 24px 24px 0px 24px;
 }
-
 body > h1 {
   color: #2e2f42;
   font-family: Montserrat;
@@ -133,9 +120,6 @@ body > h1 {
   padding: 16px 24px 24px 24px;
   margin: 0;
 }
-
-/* ////////////////////////////////////////////////////////////////////////////////////// */
-
 /* Task - 4 */
 .login-form {
   display: inline-flex;
@@ -147,7 +131,6 @@ body > h1 {
   background: #fff;
   margin: 0;
 }
-
 .login-form label {
   display: flex;
   flex-direction: column;
@@ -161,7 +144,6 @@ body > h1 {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-
 .login-form label input {
   display: flex;
   width: 360px;
@@ -169,7 +151,6 @@ body > h1 {
   justify-content: center;
   align-items: center;
 }
-
 .login-form button {
   display: flex;
   padding: 8px 16px;
@@ -188,11 +169,7 @@ body > h1 {
   line-height: 1.5em;
   letter-spacing: 0.04em;
 }
-
-/* ////////////////////////////////////////////////////////////////////////////////////// */
-
 /* Task - 5 */
-
 .widget {
   display: inline-flex;
   padding: 100px 88px;
@@ -206,7 +183,6 @@ body > h1 {
   height: 280px;
   box-sizing: border-box;
 }
-
 .widget p {
   color: #2e2f42;
   font-family: Montserrat;
@@ -221,7 +197,6 @@ body > h1 {
   align-items: center;
   justify-content: center;
 }
-
 .widget .change-color {
   display: flex;
   padding: 8px 16px;
@@ -238,11 +213,7 @@ body > h1 {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
 }
-
-/* ////////////////////////////////////////////////////////////////////////////////////// */
-
 /* Task - 6 */
-
 #controls {
   display: flex;
   padding: 32px;
@@ -254,7 +225,6 @@ body > h1 {
   width: 486px;
   box-sizing: border-box;
 }
-
 #controls input {
   display: flex;
   padding: 8px 72px;
@@ -272,7 +242,6 @@ body > h1 {
   line-height: 1.5em; /* 150% */
   letter-spacing: 0.04em;
 }
-
 #controls button[data-create] {
   display: flex;
   width: 120px;
@@ -292,7 +261,6 @@ body > h1 {
   line-height: 1.5em; /* 150% */
   letter-spacing: 0.04em;
 }
-
 #controls button[data-destroy] {
   display: flex;
   width: 120px;
@@ -312,7 +280,6 @@ body > h1 {
   line-height: 1.5em; /* 150% */
   letter-spacing: 0.04em;
 }
-
 #boxes {
   display: flex;
   width: 486px;
